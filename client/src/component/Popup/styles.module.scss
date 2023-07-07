@@ -1,0 +1,43 @@
+.popup-wrapper{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 634px;
+    min-height: 434px;
+    flex-direction: column;
+    background-color: #FFFF;
+    padding: 32px;
+    >label{
+        text-align: center;
+        font-size: 24px;
+        font-family: MontserratBold;
+        
+    }
+    label{
+        font-family: MontserratBold;
+    }
+    .date-section {
+        margin-top: 27px;
+        display: flex;
+        gap: 30px;
+        .date-picker{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .status{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .group-checkbox{
+        display: flex;
+    }
+    .break{
+        width: 100%;
+    }
+  
+   
+}

@@ -1,0 +1,25 @@
+.table-wrapper{
+    display: grid;
+    grid-template-columns: repeat(8,auto) ;
+    min-width: 500px; 
+    margin-top: 32px;
+    
+        .title{
+            display: flex;
+            background-color: #f1f4f8;
+            height: 48px;
+            font-family: MontserratBold;
+            align-items: center;
+        }
+        .content {
+            height: 48px;
+            display: flex;
+            align-items: center;
+            font-family: Montserrat;
+            font-size: 14px;
+        }
+        .id{
+            justify-content: center;
+        }
+    
+}

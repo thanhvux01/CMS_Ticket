@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+     width:100%;
+    margin-right: 32px;
+}
+
+.user-section{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    gap: 24px;
+    img{
+        height: 24px;
+    }
+}
+
+.avatar{
+    width: 48px;
+    height: 48px;
+}

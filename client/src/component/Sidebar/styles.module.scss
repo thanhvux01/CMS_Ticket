@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    margin: 17px 36px 0px 33px;
+    flex-direction: column;
+    min-width: 252px;
+}  
+.logo-wrapper{
+    margin-bottom: 59px
+}
+.menu-section {
+   display: flex;
+   flex-direction: column;
+   .btn{
+       display: flex;
+       align-items: center;
+       padding: 24px;
+       >label{
+        font-family: Montserrat;
+        margin-left: 12px;
+        font-size: 18px;
+       }
+   }
+}
