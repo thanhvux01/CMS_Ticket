@@ -14,9 +14,10 @@ return new class extends Migration
         Schema::create('tickets', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('booking_code');
-            $table->string('event_name');
-            $table->string('checkin');
+            $table->foreignId('package_id')->constrained()->onDelete('cascade');
+            $table->enum('checkin',['Cổng 1','Cổng 2','Cổng 3','Cổng 4','Cổng 5']);
+            $table->boolean('for_control');
+            $table->string('type');
             $table->Date('exp_date');
             $table->Date('used_date');
         });

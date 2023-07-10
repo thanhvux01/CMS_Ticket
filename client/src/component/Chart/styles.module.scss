@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+ 
+ }
+ 
+ .content-wrapper {
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     padding: 24px;
+     min-width: 1567px;
+     min-height: 963px;
+     background-color: #FFFF;
+     border-radius: 24px;
+  h2{
+     font-size: 36px;
+     font-family: Montserrat
+  }
+     
+ }

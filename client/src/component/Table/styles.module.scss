@@ -1,6 +1,18 @@
+
+.grid-8{
+    grid-template-columns: repeat(8,auto) ;
+}
+
+.grid-6{
+    grid-template-columns: repeat(6,auto) ;
+}
+
+.grid-9{
+    grid-template-columns: repeat(9,auto) ;
+}
+
 .table-wrapper{
     display: grid;
-    grid-template-columns: repeat(8,auto) ;
     min-width: 500px; 
     margin-top: 32px;
     

@@ -12,4 +12,8 @@ class Ticket extends Model
     protected $fillable = [
         'booking_code','used_date','event_name','checkin'
     ];
+    public function packages()
+    {
+        return $this->belongsTo(Package::class);
+    }
 }

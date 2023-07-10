@@ -27,6 +27,12 @@
             background-color: #F7F7F8;
         }
      }
+     .right{
+      width: 100%;
+      flex-direction: row-reverse;
+      display: flex;
+      gap: 20px;
+     }
   }
     
 }

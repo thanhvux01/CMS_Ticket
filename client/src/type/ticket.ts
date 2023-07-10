@@ -7,4 +7,6 @@ export type ticket = {
     id:number,
     updated_at:string,
     used_date:string,
+    type?:string,
+    
 }

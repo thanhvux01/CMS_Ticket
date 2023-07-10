@@ -1,43 +1,100 @@
-.popup-wrapper{
+.popup-wrapper {
     display: flex;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 634px;
+    transform: translate(-50%, -50%);
+    max-width: 648px;
     min-height: 434px;
     flex-direction: column;
     background-color: #FFFF;
     padding: 32px;
-    >label{
+
+    >label {
         text-align: center;
         font-size: 24px;
         font-family: MontserratBold;
-        
+
     }
-    label{
+
+    label {
         font-family: MontserratBold;
     }
+
     .date-section {
+        align-items: center;
         margin-top: 27px;
         display: flex;
         gap: 30px;
-        .date-picker{
+
+        .date-picker {
             display: flex;
             flex-direction: column;
         }
     }
-    .status{
+
+    .status {
         margin-top: 20px;
         display: flex;
         flex-direction: column;
     }
-    .group-checkbox{
+
+    .group-checkbox {
         display: flex;
     }
-    .break{
+
+    .break {
         width: 100%;
     }
-  
-   
+
+    .btn-section {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.col {
+    >label {
+        font-family: Montserrat;
+    }
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 36px;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid #A5A8B1;
+}
+
+.price-section {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    .price {
+        span{
+            font-style: italic;
+        }
+        .input {
+            width: 148px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            border: 1px solid #A5A8B1;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color: #F1F4F8;
+        }
+    }
+}
+
+.status-section{
+    margin-top: 24px;
+}
+
+.btn-section{
+    margin-top: 68px;
+    gap: 24px;
 }
